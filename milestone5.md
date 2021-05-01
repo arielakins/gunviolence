@@ -92,7 +92,7 @@ order by count(*) desc;
 ```
 Compared to the number of shooting incidents in District 25 (1,145), 977 incidents were within 1000m of a health center. This means that 15% of all incidents from District 25 were in areas that there are 0 available health centers, compared to the 3% of shootings in Center City that were not near any available resources. Of these 977 incidents, only 24% of them were within areas that had 4 or 5 nearby health centers. 34% of the incidents had only one health center within a 1000m distance. 
 
-![District 25](C://sql/dist25.jpg)
+![25](dist25.jpg)
 
 Now we will use a similar query to find the amount of Neighborhood Resources within a police district. 
 
