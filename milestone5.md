@@ -407,7 +407,9 @@ using gist(geom);
 *geom*          geom(multipolygon,  polygon geometry
                 26918)
 *district*      integer             Philadelphia Police District
-
+|      |                   |                                                                         |
+|------|-------------------|-------------------------------------------------------------------------|
 | gid  | serial            | primary key; incrementing value for each neighborhood resource location |
 | geom | geom(point,26918) | point geometry of all resource centers, in SRID 26918                   |
 | name | varchar           | name of facility                                                        |
+|      |                   |                                                                         |
