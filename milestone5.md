@@ -91,6 +91,8 @@ order by count(*) desc;
 ```
 ![6](6_healthcare.jpg)
 
+The count query will not return a geometry, but the attached map shows what is being counted; an 1000m buffer from the health centers(in red) show which incidents are close to more than one health center, and which incidents are not located near any. This will be the case for each of the next three queries. 
+
 From our first query of incidents by district, we know that there were 101 shootings from 2015 to present day. The above query returns 98 rows, which means almost every shooting incident occurred within 1000m of a health center resource. Of those 98 incidents, 80% of them were within 4 to 6 health centers, and only 12% of incidents were only within 1 available health center. This means there is a wide range of available help to residents of Center City East. Let's now try the same query, but change our where clause to return only incidents that occurred in District 25. 
 
 **District 25**
